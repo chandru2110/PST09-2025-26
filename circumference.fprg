@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="circumference"/>
+        <attribute name="authors" value="sivab"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 12:51:05 PM"/>
+        <attribute name="created" value="c2l2YWI7REVTS1RPUC1WTU84QjYwOzIwMjYtMDEtMDY7MTI6NDc6NDggUE07Mjg2OQ=="/>
+        <attribute name="edited" value="c2l2YWI7REVTS1RPUC1WTU84QjYwOzIwMjYtMDEtMDY7MTI6NTE6MDUgUE07MTsyOTY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r" type="Real" array="False" size=""/>
+            <input variable="r"/>
+            <output expression="2*pi*r" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
