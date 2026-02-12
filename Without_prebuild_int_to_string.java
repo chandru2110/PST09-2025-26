@@ -1,0 +1,20 @@
+package PST;
+import java.util.Scanner;
+public class Without_prebuild_int_to_string {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("enter the number:");
+		int num=sc.nextInt();
+		int storage=num;
+		String convert="";
+		int digit;
+		while(storage!=0) {
+			digit=storage%10;
+			convert=digit+convert;
+			storage/=10;
+		}
+		System.out.println("converted number:"+convert);
+	}
+
+}
